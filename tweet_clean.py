@@ -58,6 +58,7 @@ for line in fin:
     tweet1.removeEmoji()
     fout.write(tweet1.copy)
 '''
+Sample to test str variable declared on top
 tweet1 = tweet(str)
 tweet1.separateWords()
 tweet1.replaceMentions()
